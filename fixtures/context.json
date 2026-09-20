@@ -1,0 +1,43 @@
+{
+  "domain": "bci-ward-standard-drafting",
+  "version": 1,
+  "sample_id": "public-sample-008",
+  "actors": [
+    "临床科室",
+    "伦理委员会",
+    "科研团队",
+    "设备企业",
+    "受试者管理人员"
+  ],
+  "facts": [
+    "广东已有多家医疗机构设立脑机接口相关病房或中心",
+    "联合体计划定期汇总医院科室真实需求",
+    "现阶段产品以非侵入式应用为主且仍需临床验证"
+  ],
+  "constraints": [
+    "标准章节协作",
+    "意见逐条处理",
+    "试点证据引用",
+    "表决发布留档"
+  ],
+  "records": [
+    {
+      "id": "bci-ward-standard-drafting-source",
+      "kind": "source",
+      "label": "广东已有多家医疗机构设立脑机接口相关病房或中心",
+      "status": "active"
+    },
+    {
+      "id": "bci-ward-standard-drafting-review",
+      "kind": "review",
+      "label": "标准章节协作",
+      "status": "pending"
+    },
+    {
+      "id": "bci-ward-standard-drafting-history",
+      "kind": "history",
+      "label": "现阶段产品以非侵入式应用为主且仍需临床验证",
+      "status": "historical"
+    }
+  ]
+}
