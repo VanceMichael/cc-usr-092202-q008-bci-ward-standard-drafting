@@ -1,0 +1,32 @@
+{
+  "domain": "bci-ward-standard-drafting",
+  "version": 1,
+  "sample_id": "pilot-observations-2026-01",
+  "note": "脱敏观察样例:仅含病区级汇总指标,不含任何可识别个人的信息",
+  "observations": [
+    {
+      "evidence_id": "EV-2026-001",
+      "clause_id": "CL-5.2",
+      "site": "试点病区A(三甲综合医院,已脱敏)",
+      "period": "2026-03-01至2026-05-31",
+      "summary": "按草案设置独立信号屏蔽区后,非侵入式脑电采集信号中断由每周5起降至每周1起",
+      "deidentified": true
+    },
+    {
+      "evidence_id": "EV-2026-002",
+      "clause_id": "CL-6.1",
+      "site": "试点病区B(专科医院,已脱敏)",
+      "period": "2026-04-01至2026-06-30",
+      "summary": "配备1名专职数据管理员后,脑机接口数据保存完整率由87%提升至99%",
+      "deidentified": true
+    },
+    {
+      "evidence_id": "EV-2026-003",
+      "clause_id": "CL-7.3",
+      "site": "试点病区A(三甲综合医院,已脱敏)",
+      "period": "2026-03-01至2026-05-31",
+      "summary": "异常处置演练由每季度1次增至每月1次后,设备异常平均响应时间由12分钟降至6分钟",
+      "deidentified": true
+    }
+  ]
+}
